@@ -39,9 +39,3 @@ The best-performing Random Forest model was used to rank feature importances. Va
 - **Incentivize Long-term Contracts:** Month-to-month customers are at the highest risk. Offering discounts for upgrading to annual contracts could improve retention.
 - **Targeted Retention Campaigns:** Utilize the model's predictions to identify the most at-risk customers and offer personalized interventions (special offers, proactive support).
 - **Review Pricing Strategies:** Given that higher monthly charges correlate with higher churn, consider introducing tiered pricing options offering better perceived value.
-
-## How to Run the Analysis
-1. Ensure you have Python installed along with the required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, and `scikit-learn`.
-2. Open the `code.ipynb` Jupyter Notebook.
-3. Place the `CustomerChurn.csv` dataset in the same directory.
-4. Run the cells sequentially to reproduce the data cleaning, visualizations, model training, and evaluation results.
